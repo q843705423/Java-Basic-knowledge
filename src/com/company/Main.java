@@ -1,25 +1,20 @@
 package com.company;
 
+
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
 public class Main {
 
-    public static void main(String[] args) {
-        File file = new File("");
-        try {
-            FileWriter fw = new FileWriter(file);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+    public static void main(String[] args) throws IOException {
+
+
     }
 
-    public static void test() {
-        throw new Error("hello world");
+    public void hello() throws IOException {
+        FileWriter fileWriter = new FileWriter("hello.txt");
     }
-    //native 关键字
-    //
 }
 
 /**
