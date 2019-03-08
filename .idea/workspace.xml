@@ -2,26 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbeb81fe-0b37-48a8-891b-e0072a22bf36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cn/skythinking/UI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/thread_018/T.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/thread_019/MyContainer1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/thread_019/MyContainer3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/thread_019/MyContainer4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/thread_019/MyContainer5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/thread_020/ReentrantLock1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/thread_020/ReentrantLock3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/thread_020/ReentrantLock4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/thread_020/ReentrantLock5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/thread_020/ReentrantLook2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/thread_021/MyContainer1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/thread_021/MyContainer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/thread_022/ThreadLocal1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/thread_022/ThreadLocal2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/thread_023/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/thread_024/TickerSeller1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/thread_024/TickerSeller3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/thread_024/TickerSeller4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/thread_024/TicketSeller2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/thread_025/T01_ConcurrentMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/thread_025/T02_CopyOnWriteList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/thread_025/T03_SychronizedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/thread_025/T04_ConcurrentQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/thread_025/T05_LinkedBlockingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/thread_025/T07_DelayQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/thread_025/T09_SynchronusQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/thread_025/T8_TransferQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_learn/com/company/thread_015/T.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_learn/com/company/thread_015/T.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/thread_017/T.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/thread_017/T.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,38 +46,39 @@
     <session id="282648547">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.28" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.43" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="java" value="40934" />
+          <entry key="java" value="47869" />
           <entry key="md" value="12438" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="40934" />
+          <entry key="JAVA" value="47869" />
           <entry key="Markdown" value="12438" />
           <entry key="PLAIN_TEXT" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="42" />
+          <entry key="java" value="55" />
           <entry key="md" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="42" />
+          <entry key="JAVA" value="55" />
           <entry key="Markdown" value="5" />
         </counts>
       </usages-collector>
@@ -93,34 +87,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/thread_020/ReentrantLook2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/thread_020/ReentrantLock3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/thread_020/ReentrantLock4.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/thread_024/TickerSeller3.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
-              <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/thread_024/TickerSeller4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,33 +108,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/thread_020/ReentrantLock5.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/thread_025/T01_ConcurrentMap.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="325">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/thread_021/MyContainer1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#819#820#0" expanded="true" />
-                <element signature="e#847#848#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/thread_021/MyContainer2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+              <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -164,37 +120,85 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/thread_022/ThreadLocal1.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/thread_025/T02_CopyOnWriteList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+            <state relative-caret-position="296">
+              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/thread_022/ThreadLocal2.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/thread_025/T03_SychronizedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="296">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/thread_023/Singleton.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/thread_025/T04_ConcurrentQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="271">
+              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/skythinking/UI.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/thread_025/T05_LinkedBlockingQueue.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
-              <caret line="64" column="38" selection-start-line="64" selection-start-column="38" selection-end-line="64" selection-end-column="38" />
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/thread_025/T07_DelayQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
+                <element signature="e#497#498#0" expanded="true" />
+                <element signature="e#521#522#0" expanded="true" />
+                <element signature="e#574#575#0" expanded="true" />
+                <element signature="e#598#599#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/thread_025/T8_TransferQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/thread_025/T09_SynchronusQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -224,8 +228,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/java_note/exception.md" />
         <option value="$PROJECT_DIR$/java_note/multithreading.md" />
         <option value="$PROJECT_DIR$/src/com/company/thread_001/T.java" />
         <option value="$PROJECT_DIR$/src/com/company/thread_002/T.java" />
@@ -262,6 +264,21 @@
         <option value="$PROJECT_DIR$/src/com/company/thread_022/ThreadLocal2.java" />
         <option value="$PROJECT_DIR$/src/com/company/thread_023/Singleton.java" />
         <option value="$PROJECT_DIR$/src/cn/skythinking/UI.java" />
+        <option value="$PROJECT_DIR$/src/com/company/thread_024/TickerSeller1.java" />
+        <option value="$PROJECT_DIR$/src/com/company/thread_024/TicketSeller2.java" />
+        <option value="$PROJECT_DIR$/src/com/company/thread_024/TickerSeller3.java" />
+        <option value="$PROJECT_DIR$/src/com/company/thread_024/TickerSeller4.java" />
+        <option value="$PROJECT_DIR$/src/com/company/thread_025/T01_ConcurrentMap.java" />
+        <option value="$PROJECT_DIR$/src/com/company/thread_025/T02_CopyOnWriteList.java" />
+        <option value="$PROJECT_DIR$/src/com/company/thread_025/T03_SychronizedList.java" />
+        <option value="$PROJECT_DIR$/src/com/company/thread_025/T04_ConcurrentQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/company/thread_025/T05_LinkedBlockingQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/company/thread_025/DelayQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/company/thread_025/T06_DelayQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/company/thread_025/T07_DelayQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/company/thread_025/TransferQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/company/thread_025/T8_TransferQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/company/thread_025/T09_SynchronusQueue.java" />
       </list>
     </option>
   </component>
@@ -282,6 +299,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -300,18 +318,36 @@
               <item name="java_learn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java_learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="skythinking" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="thread_025" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="MyContainer4&#9;null&#9;null&#10;package&#9;ACTION&#9;NewDir" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551964927352" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552051509141" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../tdsf_blog_background_system" />
     <property name="project.structure.last.edited" value="Project" />
@@ -331,13 +367,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UI">
-    <configuration name="MyContainer1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.thread_021.MyContainer1" />
+  <component name="RunManager" selected="Application.T09_SynchronusQueue">
+    <configuration name="T01_ConcurrentMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.thread_025.T01_ConcurrentMap" />
       <module name="java_learn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.thread_021.*" />
+          <option name="PATTERN" value="com.company.thread_025.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -345,12 +381,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyContainer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.thread_021.MyContainer2" />
+    <configuration name="T02_CopyOnWriteList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.thread_025.T02_CopyOnWriteList" />
       <module name="java_learn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.thread_021.*" />
+          <option name="PATTERN" value="com.company.thread_025.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -358,12 +394,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadLacal1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.thread_022.ThreadLacal1" />
+    <configuration name="T07_DelayQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.thread_025.T07_DelayQueue" />
       <module name="java_learn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.thread_022.*" />
+          <option name="PATTERN" value="com.company.thread_025.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -371,12 +407,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadLocal2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.thread_022.ThreadLocal2" />
+    <configuration name="T09_SynchronusQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.thread_025.T09_SynchronusQueue" />
       <module name="java_learn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.thread_022.*" />
+          <option name="PATTERN" value="com.company.thread_025.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -384,12 +420,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.skythinking.UI" />
+    <configuration name="TransferQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.thread_025.TransferQueue" />
       <module name="java_learn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.skythinking.*" />
+          <option name="PATTERN" value="com.company.thread_025.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -398,19 +434,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MyContainer1" />
-      <item itemvalue="Application.MyContainer2" />
-      <item itemvalue="Application.ThreadLacal1" />
-      <item itemvalue="Application.ThreadLocal2" />
-      <item itemvalue="Application.UI" />
+      <item itemvalue="Application.T01_ConcurrentMap" />
+      <item itemvalue="Application.T02_CopyOnWriteList" />
+      <item itemvalue="Application.T07_DelayQueue" />
+      <item itemvalue="Application.TransferQueue" />
+      <item itemvalue="Application.T09_SynchronusQueue" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UI" />
-        <item itemvalue="Application.ThreadLocal2" />
-        <item itemvalue="Application.ThreadLacal1" />
-        <item itemvalue="Application.MyContainer2" />
-        <item itemvalue="Application.MyContainer1" />
+        <item itemvalue="Application.T09_SynchronusQueue" />
+        <item itemvalue="Application.TransferQueue" />
+        <item itemvalue="Application.T07_DelayQueue" />
+        <item itemvalue="Application.T02_CopyOnWriteList" />
+        <item itemvalue="Application.T01_ConcurrentMap" />
       </list>
     </recent_temporary>
   </component>
@@ -429,18 +465,19 @@
       <workItem from="1551687794959" duration="11267000" />
       <workItem from="1551780558101" duration="4641000" />
       <workItem from="1551857181763" duration="3069000" />
-      <workItem from="1551940912783" duration="20693000" />
+      <workItem from="1551940912783" duration="20781000" />
+      <workItem from="1552008939713" duration="13224000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55811000" />
+    <option name="totallyTimeSpent" value="69123000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15424165" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.15424165" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -449,21 +486,21 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.0877193" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.43184885" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.19703104" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.16194332" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32928476" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Database" order="7" weight="0.32969153" />
@@ -512,34 +549,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Error.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Exception.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/IOException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Throwable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2025">
-          <caret line="105" column="9" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java_note/exception.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -641,9 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -693,40 +699,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/thread_019/MyContainer3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/thread_019/MyContainer4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="62" column="20" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -741,13 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -768,9 +743,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/locks/Condition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="229" column="6" selection-start-line="229" selection-start-column="6" selection-end-line="229" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/thread_020/ReentrantLook2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
+        <state relative-caret-position="300">
           <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -780,7 +762,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/thread_020/ReentrantLock3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="175">
           <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -790,7 +772,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/thread_020/ReentrantLock4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
+        <state relative-caret-position="125">
           <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -800,33 +782,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/thread_020/ReentrantLock5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
+        <state relative-caret-position="725">
           <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/thread_021/MyContainer1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
+        <state relative-caret-position="900">
           <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#819#820#0" expanded="true" />
-            <element signature="e#847#848#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/locks/Condition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="229" column="6" selection-start-line="229" selection-start-column="6" selection-end-line="229" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/thread_021/MyContainer2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="900">
           <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -843,7 +816,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/thread_022/ThreadLocal2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
+        <state relative-caret-position="875">
           <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
@@ -855,10 +828,134 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/thread_024.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/skythinking/UI.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="93" column="9" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/thread_024/TickerSeller1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/thread_024/TicketSeller2.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="64" column="38" selection-start-line="64" selection-start-column="38" selection-end-line="64" selection-end-column="38" />
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/thread_024/TickerSeller3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/thread_024/TickerSeller4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/thread_025/T01_ConcurrentMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/thread_025/T02_CopyOnWriteList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/thread_025/T03_SychronizedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/thread_025/T04_ConcurrentQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/thread_025/T07_DelayQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/thread_025/T8_TransferQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/thread_025/T09_SynchronusQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/thread_025/T05_LinkedBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
