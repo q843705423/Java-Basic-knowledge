@@ -1,16 +1,20 @@
 package tankwar;
 
 import java.awt.*;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.util.concurrent.TimeUnit;
 
 public class TankClient extends Frame {
-    private final int SCREEN_WIDTH = 800;
-    private final int SCREEN_HEIGHT = 600;
+    public static final int SCREEN_WIDTH = 800;
+    public static final int SCREEN_HEIGHT = 600;
 
+    Tank myTank = new Tank(40,50);
      public void lunchFrame(){
-         this.setLocation(200,100);
+         int tankX = 200;
+         this.setLocation(tankX,100);
          this.setSize(SCREEN_WIDTH,SCREEN_HEIGHT);
          this.setVisible(true);
          this.addWindowListener(new WindowAdapter() {
@@ -23,18 +27,12 @@ public class TankClient extends Frame {
          this.setTitle("坦克大战");
          this.setBackground(Color.GREEN);
          new Thread(new PaintThread()).start();
+         this.addKeyListener(new KeyMonitor());
      }
-    private int x = 50;
-    private int y =  50;
     Image offScreenImage = null;
     @Override
     public void paint(Graphics g) {
-         Color c = g.getColor();
-         g.setColor(Color.RED);
-         g.fillOval(x,y,30,30);
-         g.setColor(c);
-        y += 5;
-        x += 5;
+        myTank.draw(g);
         super.paint(g);
     }
 
@@ -69,4 +67,11 @@ public class TankClient extends Frame {
             }
          }
      }
+     private class KeyMonitor extends KeyAdapter{
+         @Override
+         public void keyPressed(KeyEvent e) {
+             myTank.keyPressed(e);
+         }
+     }
+
 }
