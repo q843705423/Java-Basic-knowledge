@@ -5,13 +5,16 @@ import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class TankClient extends Frame {
     public static final int SCREEN_WIDTH = 800;
     public static final int SCREEN_HEIGHT = 600;
 
-    Tank myTank = new Tank(40,50);
+    Tank myTank = new Tank(40,50,this);
+    public List<Missile> missileList = new ArrayList<>();
      public void lunchFrame(){
          int tankX = 200;
          this.setLocation(tankX,100);
@@ -32,7 +35,12 @@ public class TankClient extends Frame {
     Image offScreenImage = null;
     @Override
     public void paint(Graphics g) {
+        g.drawString("number:"+missileList.size(), 40,40);
         myTank.draw(g);
+        for (Missile missile : missileList) {
+            missile.draw(g);
+
+        }
         super.paint(g);
     }
 
@@ -71,6 +79,11 @@ public class TankClient extends Frame {
          @Override
          public void keyPressed(KeyEvent e) {
              myTank.keyPressed(e);
+         }
+
+         @Override
+         public void keyReleased(KeyEvent e) {
+             myTank.keyReleased(e);
          }
      }
 
