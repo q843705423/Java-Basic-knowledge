@@ -1,3 +1,5 @@
+package cn.skythinking;
+
 import java.util.Scanner;
 
 public class TwentyFourGame {
