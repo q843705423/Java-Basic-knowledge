@@ -1,4 +1,4 @@
-package com.company;
+package com.company.exception_learn;
 
 import java.io.File;
 import java.io.FileWriter;
