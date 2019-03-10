@@ -6,10 +6,12 @@ import java.awt.event.WindowEvent;
 import java.util.concurrent.TimeUnit;
 
 public class TankClient extends Frame {
+    private final int SCREEN_WIDTH = 800;
+    private final int SCREEN_HEIGHT = 600;
 
      public void lunchFrame(){
          this.setLocation(200,100);
-         this.setSize(800,600);
+         this.setSize(SCREEN_WIDTH,SCREEN_HEIGHT);
          this.setVisible(true);
          this.addWindowListener(new WindowAdapter() {
              @Override
@@ -24,13 +26,30 @@ public class TankClient extends Frame {
      }
     private int x = 50;
     private int y =  50;
+    Image offScreenImage = null;
     @Override
     public void paint(Graphics g) {
          Color c = g.getColor();
          g.setColor(Color.RED);
          g.fillOval(x,y,30,30);
          g.setColor(c);
+        y += 5;
+        x += 5;
         super.paint(g);
+    }
+
+    @Override
+    public void update(Graphics g) {
+        if(offScreenImage == null){
+            offScreenImage = this.createImage(SCREEN_WIDTH,SCREEN_HEIGHT);
+        }
+        Graphics gOffScreen = offScreenImage.getGraphics();
+        Color c = gOffScreen.getColor();
+        gOffScreen.setColor(Color.GREEN);
+        gOffScreen.fillRect(0,0,SCREEN_WIDTH,SCREEN_HEIGHT);
+        gOffScreen.setColor(c);
+        paint(gOffScreen);
+        g.drawImage(offScreenImage,0,0, null);
     }
 
     public static void main(String []args){
@@ -38,17 +57,12 @@ public class TankClient extends Frame {
          tc.lunchFrame();
      }
      private class PaintThread implements Runnable {
-         /**
-          * 内部类可以访问外部类的方法
-          */
          @Override
          public void run() {
             while (true){
-                y += 5;
-                x += 5;
                 repaint();
                 try {
-                    TimeUnit.MILLISECONDS.sleep(100);
+                    TimeUnit.MILLISECONDS.sleep(50);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
